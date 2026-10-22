@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Felix Owoicho Ajeibi | Web Design, Brand Growth & Market Analysis</title>
+    <meta
+      name="description"
+      content="Portfolio of Felix Owoicho Ajeibi — multidisciplinary digital professional with 6+ years of experience in web design, brand growth, financial market analysis, and AI automation."
+    />
+    <meta name="author" content="Felix Owoicho Ajeibi" />
+    <meta name="keywords" content="Felix Owoicho Ajeibi, Web Design, WordPress, Elementor, Shopify, Brand Growth, Financial Market Analysis, Price Action, AI Automation, Freelance Web Designer Nigeria" />
+
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Felix Owoicho Ajeibi | Web Design, Brand Growth & Market Analysis" />
+    <meta
+      property="og:description"
+      content="I design websites, grow brands, and read the markets. Explore selected projects, digital services, and contact details for freelance and remote roles."
+    />
+    <meta property="og:site_name" content="Felix Ajeibi Portfolio" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Felix Owoicho Ajeibi | Web Design & Market Analysis" />
+    <meta
+      name="twitter:description"
+      content="I design websites, grow brands, and read the markets. 6+ years of experience in web creation, brand growth, market research, and AI workflows."
+    />
+
+    <!-- Google Fonts: Space Grotesk (Headings) & Inter (Body/UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prevent Theme Flash -->
+    <script>
+      (function() {
+        try {
+          var savedTheme = localStorage.getItem('theme');
+          var systemDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (savedTheme === 'dark' || (!savedTheme && systemDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Felix Owoicho Ajeibi",
+        "jobTitle": "Web Designer & Digital Strategist",
+        "description": "Multidisciplinary digital professional specializing in web design, brand growth, financial market analysis, and AI automation.",
+        "email": "mailto:nexaprodigitalbusinesssolution@gmail.com",
+        "telephone": "+2348157357758",
+        "knowsAbout": [
+          "Web Design & Development",
+          "WordPress",
+          "Shopify",
+          "Elementor",
+          "Financial Market Analysis",
+          "Price Action Trading",
+          "AI Workflow Automation",
+          "Social Media Management"
+        ],
+        "url": "https://felixajeibi.com"
+      }
+    </script>
+  </head>
+  <body class="bg-[#F5F7FA] text-[#0B1F3A] dark:bg-[#0B1F3A] dark:text-[#F5F7FA] antialiased selection:bg-[#FF8A00] selection:text-white transition-colors duration-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
